@@ -1,0 +1,31 @@
+#table {
+    display:table;
+    width:80%;
+    margin:0 auto;
+}
+.col {
+    border:1px solid pink;
+    display:table-cell;
+    text-align:center;
+    width:30%;
+    padding:10px; 
+}
+#table-header {
+    display:table-header-group;
+    text-align:center;
+    font-weight:bold;
+    background:lightblue;
+}
+
+.row {
+    display:table-row;
+}
+h1 {
+    text-align:center;
+}
+#table-footer {
+    display:table-footer-group;
+    /* text-align:center; */
+    font-weight:bold;
+    background:rgba(144, 238, 144, 0.363);
+}
